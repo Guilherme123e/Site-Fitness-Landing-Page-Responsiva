@@ -1,0 +1,1 @@
+Site com landing page responsiva, chamado "Fitness" com front-end desenvolvido em CSS, HTML e JAVASCRIPT, disponivel no Github pages em:https://guilherme123e.github.io/Site-Fitness-Landing-Page-Responsiva/
