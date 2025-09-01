@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA PLANOS*/
+
+
+
+
+
+/*DIV GUIA DE FUNDO DA ABA PLANOS EM GERAL*/
+.pl {
+  height: 840px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DESIGN DO CARD PLANO SILVER*/
+.plano1 {
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  max-width: 390px;
+  margin-top: 10px;
+  height: 810px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+
+/*DESIGN DO TITULO DO CARD PLANO SILVER*/
+.ps {
+  font-size: 30px;
+}
+
+/*IMAGEM A ESQUERDA DO TITULO DO CARD PLANO SILVER*/
+.ps li {
+  padding-left: 100px;
+  list-style: none;
+  background-image: url('imagens/prata.jpg');
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin-bottom: 50px;
+  background-position: 0px -20px;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA DE NÃO INCLUI DO CARD PLANO SILVER*/
+.ninclui li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.nii li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA INCLUI DO CARD PLANO SILVER*/
+.inclui li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.ii li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA EXCLUSIVIDADES DO CARD PLANO SILVER*/
+.exx li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.ex li {
+  text-align: left;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+/*DESIGN DO TEXTO DO VALOR MENSAL E ANUAL DA MENSALIDADE DO CARD PLANO SILVER*/
+.p11 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 31px;
+}
+
+/*DESIGN DE SELECIONADO DO CARD PLANO SILVER COM A COR NO TOPO DO CARD*/
+.plano1:hover {
+  border-top: 20px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DESIGN DO CARD PLANO GOLD*/
+.plano2 {
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  margin-top: 10px;
+  height: 810px;
+  max-width: 390px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+/*DESIGN DO TITULO DO CARD PLANO GOLD*/
+.ps2 {
+  font-size: 30px;
+}
+
+/*IMAGEM A ESQUERDA DO TITULO DO CARD PLANO GOLD*/
+.ps2 li {
+  padding-left: 100px;
+  list-style: none;
+  background-image: url('imagens/gold.jpg');
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin-bottom: 50px;
+  background-position: 0px -23px;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA DE NÃO INCLUI DO CARD PLANO GOLD*/
+.ninclui2 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.nii2 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA INCLUI DO CARD PLANO GOLD*/
+.inclui2 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.ii2 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA EXCLUSIVIDADES DO CARD PLANO GOLD*/
+.ex2 li {
+  margin-right: 100px;
+}
+
+.ex2 li {
+  text-align: left;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.exx2 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*DESIGN DO TEXTO DO VALOR MENSAL E ANUAL DA MENSALIDADE DO CARD PLANO GOLD*/
+.p22 {
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+}
+
+/*DESIGN DE SELECIONADO DO CARD PLANO GOLD COM A COR NO TOPO DO CARD*/
+.plano2:hover {
+  border-top: 20px solid #cf7003;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DESIGN DO CARD PLANO PLATINUM*/
+.plano3 {
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  font-size: 14px;
+  margin-top: 10px;
+  height: 810px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 390px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*DESIGN DO TITULO DO CARD PLANO PLATINUM*/
+.ps3 {
+  font-size: 24px;
+}
+
+/*IMAGEM A ESQUERDA DO TITULO DO CARD PLANO PLATINUM*/
+.ps3 li {
+  padding-left: 115px;
+  list-style: none;
+  background-image: url('imagens/king.jpg');
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin-bottom: 50px;
+  background-position: 0px -23px;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA DE NÃO INCLUI DO CARD PLANO PLATINUM*/
+.ninclui3 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.nii3 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA INCLUI DO CARD PLANO PLATINUM*/
+.inclui3 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.ii3 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA EXCLUSIVIDADES DO CARD PLANO PLATINUM*/
+.ex3 li {
+  margin-right: 100px;
+}
+
+.ex3 li {
+  text-align: left;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.exx3 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*DESIGN DO TEXTO DO VALOR MENSAL E ANUAL DA MENSALIDADE DO CARD PLANO PLATINUM*/
+.p33 {
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+/*DESIGN DE SELECIONADO DO CARD PLANO PLATINUM COM A COR NO TOPO DO CARD*/
+.plano3:hover {
+  border-top: 20px solid #b6a811;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DESIGN DO CARD PLANO DIAMOND*/
+.plano4 {
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  font-size: 14px;
+  margin-top: 10px;
+  height: 810px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 390px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+
+/*DESIGN DO TITULO DO CARD PLANO DIAMOND*/
+.ps4 {
+  font-size: 25px;
+}
+
+/*IMAGEM A ESQUERDA DO TITULO DO CARD PLANO DIAMOND*/
+.ps4 li {
+  padding-left: 115px;
+  list-style: none;
+  background-image: url('imagens/d.png');
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin-bottom: 50px;
+  background-position: 0px -23px;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA DE NÃO INCLUI DO CARD PLANO DIAMOND*/
+.ninclui4 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.nii4 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/no.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA INCLUI DO CARD PLANO DIAMOND*/
+.inclui4 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.ii4 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/yes.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*IMAGEM A ESQUERDA DA LISTA EXCLUSIVIDADES DO CARD PLANO DIAMOND*/
+.ex4 li {
+  margin-right: 100px;
+}
+
+.ex4 li {
+  text-align: left;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.exx4 li {
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('imagens/p.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+/*DESIGN DO TEXTO DO VALOR MENSAL E ANUAL DA MENSALIDADE DO CARD PLANO DIAMOND*/
+.p44 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/*DESIGN DE SELECIONADO DO CARD PLANO DIAMOND COM A COR NO TOPO DO CARD*/
+.plano4:hover {
+  border-top: 20px solid #a9a4a4;
+}

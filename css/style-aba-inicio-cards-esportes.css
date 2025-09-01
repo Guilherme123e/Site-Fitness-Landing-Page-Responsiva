@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
+
+
+
+
+
+
+/* DESIGN CARDS DE ESPORTES NA ABA INICIAL */
+
+
+
+
+
+
+
+
+/* DESIGN CARDS DE ESPORTES NA ABA INICIAL */
+.preco {
+  display: flex;
+  position: relative;
+  z-index: 50;
+}
+
+/* IMAGEM PRINCIPAL DA ABA INICIO */
+.fundo1 {
+  position: relative;
+  background-image: url('imagens/c.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Alfa Slab One", serif;
+  font-size: 40px;
+  overflow: hidden;
+  width: 100%;
+  position: sticky;
+  background-color: white;
+  z-index: 9999;
+  top: 82px;
+}
+
+/* Camada preta com opacidade */
+.fundo1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Conteúdo acima da camada preta */
+.fundo1>* {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-size: 60px;
+}
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD ACADEMIA*/
+.precosi {
+  text-decoration: none;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 50px;
+  position: relative;
+  min-width: 255px;
+  min-height: 260px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-left: 80px;
+  min-width: 235px;
+}
+
+.precosi {
+  background-image: url('imagens/gym.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD TENIS*/
+.precogo {
+  text-decoration: none;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 50px;
+  position: relative;
+  min-width: 255px;
+  min-height: 260px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-left: 80px;
+  min-width: 235px;
+}
+
+.precogo {
+  background-image: url('imagens/tenis.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD FUTEBOL*/
+.precopla {
+  text-decoration: none;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 50px;
+  position: relative;
+  min-width: 255px;
+  min-height: 260px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 80px;
+  min-width: 235px;
+}
+
+.precopla {
+  background-image: url('imagens/futebol.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD PISCINA*/
+.precodi {
+  text-decoration: none;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 50px;
+  position: relative;
+  min-width: 255px;
+  min-height: 260px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.precodi {
+  background-image: url('imagens/pool.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+  min-width: 10px;
+}
+
+/* EFEITO DE SELEÇÃO DO CARD */
+.precosi::before,
+.precogo::before,
+.precopla::before,
+.precodi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.precosi span,
+.precogo span,
+.precopla span,
+.precodi span {
+  opacity: 0;
+  position: relative;
+  z-index: 2;
+  color: white;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 10px;
+}
+
+.precosi:hover span,
+.precogo:hover span,
+.precopla:hover span,
+.precodi:hover span {
+  opacity: 1;
+}
+
+.precosi:hover::before,
+.precogo:hover::before,
+.precopla:hover::before,
+.precodi:hover::before {
+  opacity: 0.5;
+}

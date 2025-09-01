@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
+
+
+
+.menu {
+  width: 100%;
+}
+
+
+/* ESTILIZAÇÃO DA MEDIA QUERY PARA OUTROS DISPOSITIVOS - EFEITO PARA O BOTAO INICIO APARECER SOZINHO*/
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width:1240px) {
+
+  .logo {
+    margin-right: 70px;
+    top: 14px;
+  }
+
+  .logo img {
+    max-width: 100%;
+  }
+
+
+
+  /*ABA CONTATOS*/
+  .fundo5 {
+    height: 30vh;
+  }
+
+  .cont1 {
+    height: 40vh;
+  }
+
+
+  .cw1 {
+    margin-right: 30px;
+
+    font-size: 13px;
+  }
+
+
+  /*ABA - AGENDAMENTO*/
+
+  .ag {
+    font-size: 4vh;
+    height: 6vh;
+    margin-bottom: 45px;
+    margin-top: 120px;
+  }
+
+  .n2,
+  .t2,
+  .ee2 {
+    height: 3vh;
+  }
+
+  .n1,
+  .t1,
+  .ee1 {
+    font-size: 2.2vh;
+  }
+
+  .enviar {
+    margin-top: 0px;
+    height: 5vh;
+    font-size: 3vh;
+  }
+
+
+  #msg {
+    top: 90px;
+    height: 9vh;
+    font-size: 3vh;
+  }
+
+
+
+  /*ABA - SOBRE NOS*/
+  .fundo2 {
+    height: 30vh;
+  }
+
+  .scont1 {
+    height: 40vh;
+  }
+
+  .scw1 {
+    font-size: 2.5vh;
+    margin-right: 30px;
+  }
+
+
+
+  /*ABA - PLANOS*/
+  .plano1 {
+    border-radius: 0px;
+  }
+
+  .plano2 {
+    border-radius: 0px;
+  }
+
+  .plano3 {
+    border-radius: 0px;
+  }
+
+  .plano4 {
+    border-radius: 0px;
+  }
+
+
+  /*ABA - MODALIDADES*/
+  #image-text {
+    font-size: 5vh;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+
+
+  .contatos {
+    display: none;
+  }
+
+  .modalidades {
+    display: none;
+  }
+
+  .plano {
+    display: none;
+  }
+
+  .agendamento {
+    display: none;
+  }
+
+  .sobre {
+    display: none;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width:768px) {
+
+
+
+  .menu {
+    position: sticky;
+  }
+
+  .plano1 {
+    font-size: 10px;
+    height: 700px;
+  }
+
+  .p11 {
+    font-size: 15px;
+  }
+
+  .ps {
+    font-size: 5vw;
+  }
+
+  .ps li {
+    padding-top: 20px;
+    background-position: 0px -12px;
+    padding-bottom: 25px;
+  }
+
+
+  .plano2 {
+    font-size: 10px;
+    height: 700px;
+  }
+
+  .p22 {
+    font-size: 15px;
+  }
+
+  .ps2 {
+    font-size: 5vw;
+  }
+
+  .ps2 li {
+    padding-top: 20px;
+    background-position: 0px -5px;
+    padding-bottom: 40px;
+  }
+
+  .plano3 {
+    font-size: 10px;
+    height: 700px;
+  }
+
+  .p33 {
+    font-size: 15px;
+  }
+
+  .ps3 {
+    font-size: 4vw;
+  }
+
+  .ps3 li {
+    padding-top: 20px;
+    background-position: 0px -23px;
+    padding-bottom: 25px;
+  }
+
+
+  .plano4 {
+    font-size: 10px;
+    height: 700px;
+  }
+
+  .p44 {
+    font-size: 15px;
+  }
+
+  .ps4 {
+    font-size: 4vw;
+  }
+
+  .ps4 li {
+    padding-top: 20px;
+    background-position: 0px -23px;
+    padding-bottom: 25px;
+  }
+
+
+  .logo {
+    margin-right: 40px;
+    top: 20px;
+    width: 140px;
+  }
+
+  /*ABA CONTATOS*/
+  .fundo5 {
+    height: 30vh;
+  }
+
+  .cont1 {
+    height: 40vh;
+  }
+
+
+  .cw1 {
+    margin-right: 30px;
+
+    font-size: 13px;
+  }
+
+
+  /*ABA - AGENDAMENTO*/
+
+  .ag {
+    font-size: 3.5vh;
+    height: 10vh;
+    margin-bottom: 20px;
+    margin-top: 11vh;
+  }
+
+  .n2,
+  .t2,
+  .ee2 {
+    height: 4vh;
+  }
+
+  .n1,
+  .t1,
+  .ee1 {
+    font-size: 2.5vh;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .enviar {
+    margin-top: 0vh;
+    height: 7vh;
+    font-size: 3.5vh;
+  }
+
+
+  #msg {
+    top: 90px;
+    height: 9vh;
+    font-size: 2.9vh;
+    width: 100%;
+  }
+
+
+
+  /*ABA - SOBRE NOS*/
+  .fundo2 {
+    height: 30vh;
+  }
+
+  .scont1 {
+    height: 40vh;
+  }
+
+  .scw1 {
+    margin-right: 30px;
+  }
+
+
+
+  /*ABA - PLANOS*/
+  .plano1 {
+    border-radius: 0px;
+  }
+
+  .plano2 {
+    border-radius: 0px;
+  }
+
+  .plano3 {
+    border-radius: 0px;
+  }
+
+  .plano4 {
+    border-radius: 0px;
+  }
+
+
+  /*ABA - MODALIDADES*/
+  #image-text {
+    font-size: 4vh;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+
+
+  .entrar {
+    background-position: 0px -39px;
+  }
+
+  .contatos {
+    display: none;
+  }
+
+  .modalidades {
+    display: none;
+  }
+
+  .plano {
+    display: none;
+  }
+
+  .agendamento {
+    display: none;
+  }
+
+  .sobre {
+    display: none;
+  }
+
+  #msg {
+    width: 100%;
+
+  }
+
+  .menu {
+    width: auto;
+  }
+
+  .containerp {
+    height: 3000px;
+  }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width:1706px) {
+  .containerp {
+    min-height: 140vh;
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width:885px) {
+  .containerp {
+    min-height: 300vh;
+  }
+}

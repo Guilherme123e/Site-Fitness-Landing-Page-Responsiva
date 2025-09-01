@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA CONTATOS*/
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA CONTATOS - IMAGEM PRINCIPAL*/
+.fundo2 {
+  height: 300px;
+  background-position: top center;
+  background-image: url('imagens/contato.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA CONTATOS - DIV DE FUNDO*/
+.conts {
+  display: flex;
+  height: 100%;
+  justify-content: left;
+  align-items: left;
+
+}
+
+
+
+/* ESTILIZAÇÃO DA ABA CONTATOS - CARD CONTATOS*/
+.cont1 {
+  margin-top: 25px;
+  flex: 2;
+  height: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: LEFT;
+  border-bottom-right-radius: 100px;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/*ESTILIZAÇÃO DO TEXTO*/
+.cw1 {
+  align-items: LEFT;
+  font-size: clamp(26px, 3vw, 30px);
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+}

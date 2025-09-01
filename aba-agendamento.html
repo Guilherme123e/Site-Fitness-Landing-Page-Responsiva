@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style-geral-aba-inicio.css">
+  <link rel="stylesheet" href="css/style-aba-agendamento.css">
+  <link rel="stylesheet" href="css/style-botao-inicio-media-querie.css">
+
+</head>
+
+<body>
+
+
+  <!-- ABA AGENDAMENTO-->
+
+
+  <div class="containera">
+
+
+    <!-- Menu de navegação -->
+    <div class="menu">
+      <a class="inicio" href="index.html">Inicio</a>
+      <a class="modalidades" href="aba-modalidades.html">Modalidades</a>
+      <a class="plano" href="aba-plano.html">Planos</a>
+      <a class="agendamento" href="aba-agendamento.html">Agendamento</a>
+      <a class="contatos" href="aba-contatos.html">Contatos</a>
+
+      <a class="sobre" href="aba-sobre-nos.html">Sobre-nós</a>
+
+      </a>
+
+    </div>
+
+
+
+    <div class="logo"><img src='css/imagens/logo1.jpg' alt="logo"></div>
+
+
+    <!--ESTILIZAÇÃO DA ABA AGENDAMENTO - CARD PRINCIPAL ESCRITO: AGENDE SUA VISITA-->
+    <div class="ag">AGENDE SUA VISITA</div>
+
+
+
+
+    <!--FORMS DA ABA AGENDAMENTO - CONFIGURADO PARA NAO ENVIAR DADOS-->
+    <div id="msg"></div>
+    <form class="form" ID="meuForm">
+
+
+
+      <!--FORMS, LABEL E TEXT AREA DO NOME-->
+      <label class="n1" for="NOME">NOME</label>
+      <input class="n2" id="NOME" placeholder="Digite seu nome completo" required>
+      <br>
+
+
+      <!--FORMS, LABEL E TEXT AREA DO TELEFONE-->
+      <LAbel class="t1" for="TELEFONE">TELEFONE</LAbel>
+      <input class="t2" id="TELEFONE" type="tel" placeholder="Digite seu telefone" required>
+      <br>
+
+      <!--FORMS, LABEL E TEXT AREA DO EMAIL-->
+      <LAbel class="ee1" for="E-MAIL">E-MAIL</LAbel>
+      <input class="ee2" id="E-MAIL" type="email" placeholder="Digite seu e-mail" required>
+      <br>
+
+      <!--FORMS, BOTÃO ENVIAR-->
+      <BUTTOn class="enviar" type="submit">ENVIAR</BUTTOn>
+
+    </form>
+
+    <script src='js/validar-forms-agendamento.js'></script>
+
+
+
+
+  </div>
+
+</body>
+
+</html>

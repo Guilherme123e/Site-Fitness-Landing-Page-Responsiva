@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA AGENDAMENTO*/
+
+
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA AGENDAMENTO - AGENDE SUA VISITA*/
+
+.ag {
+  font-size: 5vw;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+
+/*CAIXA DE VALIDAÇÃO DO FORMS*/
+#msg {
+  position: fixed;
+  top: 800px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 100px;
+  height: 100px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  display: none;
+  z-index: 1000;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* cores */
+#msg.erro {
+  color: rgb(180, 21, 21);
+  background: linear-gradient(to right, #ffe6e6, #ffcccc);
+}
+
+#msg.sucesso {
+  color: rgb(16, 137, 48);
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+}
+
+#msg.preencher {
+  color: black;
+  background: linear-gradient(to right, #f0f0f0, #dcdcdc);
+  display: flex;
+}
+
+.enviar {
+
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA AGENDAMENTO - FORMS - TELEFONE*/
+
+.t1 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.t2 {
+  width: 100%;
+  height: 15px;
+  margin-bottom: 5px;
+}
+
+
+
+
+/* ESTILIZAÇÃO DA ABA AGENDAMENTO - FORMS - NOME*/
+.n1 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.n2 {
+  width: 100%;
+  height: 15px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA AGENDAMENTO - FORMS - E-MAIL*/
+.ee1 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.ee2 {
+  width: 100%;
+  height: 15px;
+  margin-bottom: 5px;
+}
+
+
+/* ESTILIZAÇÃO DA ABA AGENDAMENTO - IMPEDE O REDIMENSIONAMENTO DO TEXTAREA*/
+.n2,
+.t2,
+.ee2 {
+  height: 50px;
+  resize: none;
+}
+
+
+
+/* ESTILIZAÇÃO DA ABA AGENDAMENTO - FORMS - BOTÃO ENVIAR*/
+.enviar {
+  background: white;
+  margin-top: 50px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.enviar:hover {
+  background: black;
+  color: white;
+}

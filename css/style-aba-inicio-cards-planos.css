@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILIZAÇÃO DOS CARDS REFERENTE AOS PLANOS PAGOS NA ABA INICIO */
+
+
+
+
+
+
+
+/* CARD SILVER */
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD SILVER */
+.silver {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 510px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 18px;
+  margin-right: 10px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITULO DO CARD SILVER */
+.planosi {
+  font-size: 30px;
+  font-family: arial;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: white;
+  border-top-right-radius: 4px;
+}
+
+/* PALAVRA: SAIBA MAIS - DO CARD SILVER */
+.silverp {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  color: black;
+  font-size: 30px;
+}
+
+/* IMAGEM DO CARD SILVER */
+.silverf {
+  width: 200px;
+  height: 261px;
+  background-size: cover;
+  background-image: url('imagens/prata.jpg');
+  background-position: -30px;
+}
+
+/* EFEITO DE CARD SELECIONADO COM A COR NA PARTE DE CIMA NO CARD SILVER */
+.silver:hover {
+  border-top: 5px solid gray;
+}
+
+/* CARD GOLD */
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD GOLD */
+.gold {
+  text-decoration: none;
+  width: 100%;
+  height: 510px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITULO DO CARD GOLD */
+.planogo {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  background: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  justify-content: right;
+  text-align: center;
+}
+
+/* PALAVRA: SAIBA MAIS - DO CARD GOLD */
+.goldp {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+}
+
+/* IMAGEM CARD GOLD */
+.goldf {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-image: url('imagens/gold.jpg');
+}
+
+/* EFEITO DE CARD SELECIONADO COM A COR NA PARTE DE CIMA NO CARD GOLD */
+.gold:hover {
+  border-top: 5px solid #cf7003;
+}
+
+/* CARD PLATINUM */
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD PLATINUM */
+.platinum {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 510px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITULO DO CARD PLATINUM */
+.planopla {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-top: 45px;
+}
+
+/* PALAVRA: SAIBA MAIS - DO CARD PLATINUM */
+.platinump {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+}
+
+/* IMAGEM CARD PLATINUM */
+.platinumf {
+  width: 200px;
+  height: 200px;
+  background-image: url('imagens/king.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* EFEITO DE CARD SELECIONADO COM A COR NA PARTE DE CIMA NO CARD PLATINUM */
+.platinum:hover {
+  border-top: 5px solid #b6a811;
+}
+
+/* CARD DIAMOND */
+
+/* ESTILIZAÇÃO DA ABA INICIO - DESIGN CARD DIAMOND */
+.diamond {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 510px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITULO DO CARD DIAMOND */
+.planodi {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-top: 45px;
+}
+
+/* PALAVRA: SAIBA MAIS - DO CARD DIAMOND */
+.diamondp {
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+}
+
+/* IMAGEM CARD DIAMOND */
+.diamondf {
+  width: 200px;
+  height: 200px;
+  background-image: url('imagens/d.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* EFEITO DE CARD SELECIONADO COM A COR NA PARTE DE CIMA NO CARD DIAMOND */
+.diamond:hover {
+  border-top: 5px solid #a9a4a4;
+}

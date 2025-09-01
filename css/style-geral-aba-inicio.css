@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
+
+
+
+
+
+/* ESTILIZAÇÃO DA ABA DE INICIO*/
+
+
+
+
+
+
+
+/* LOGO*/
+.logo2 {
+  display: none;
+}
+
+.logo {
+  width: 250px;
+  position: fixed;
+  z-index: 50000000;
+  display: flex;
+  justify-content: top;
+  align-items: top;
+  /* Centraliza na horizontal */
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 76px;
+  top: 0;
+  right: 0;
+}
+
+
+.logo img {
+  max-width: 120%;
+}
+
+
+
+/*CORPO GERAL DA ABA INICIO*/
+.container {
+  height: 100%;
+}
+
+/*FONTE IMAGEM PRINCIPAL DISPOSITIVOS MOVEIS*/
+.legenda {
+  font-size: clamp(20px, 3vw, 50px);
+}
+
+
+.co1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+}
+
+.co2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  min-width: 400px;
+}
+
+/*DIV DE FUNDO DO MENU DE NAVEGAÇÃO*/
+.menu {
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  position: sticky;
+  background-color: white;
+  z-index: 9999;
+  top: 0;
+}
+
+/*DIV DE FUNDO DOS PLANOS: SILVER, GOLD, PLATINUM, DIAMOND E DOS 4 CARD DE ESPORTES A DIREITA*/
+.planos {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.pp {
+  display: flex;
+  flex: 2;
+  width: 100%;
+  order: 2;
+}
+
+.preco {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+/*LOGIN*/
+.entrar {
+  text-align: right;
+  padding: 10px;
+  margin-left: auto;
+  width: 300px;
+  height: 50px;
+  background-image: url('imagens/logo.jpg');
+  background-size: 100%;
+  background-position: center -43px;
+  margin-right: 20px;
+  text-decoration: none;
+  background-repeat: no-repeat;
+}
+
+/*EFEITO DE SELECIONADO DAS ABAS DO MENU DE NAVEGAÇÃO*/
+.menu a:not(.entrar):not(.cadastrar):hover {
+  background: rgb(255, 0, 0);
+}
+
+/*DESIGN DO MENU DE NAVEGAÇÃO - ABA INICIO*/
+.inicio {
+  background: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*DESIGN DO MENU DE NAVEGAÇÃO - ABA CONTATOS*/
+.contatos {
+  background: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*DESIGN DO MENU DE NAVEGAÇÃO - ABA MODALIDADES*/
+.modalidades {
+  background: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*DESIGN DO MENU DE NAVEGAÇÃO - ABA PLANOS*/
+.plano {
+  background: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*DESIGN DO MENU DE NAVEGAÇÃO - ABA AGENDAMENTO*/
+.agendamento {
+  background: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sobre {
+  background: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
