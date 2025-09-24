@@ -51,6 +51,7 @@
   font-size: 14px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
+  min-width: 280px;
 }
 
 
@@ -126,6 +127,7 @@
   background-size: 20px 20px;
   background-repeat: no-repeat;
   padding-left: 30px;
+  margin-right: 50px;
 }
 
 /*DESIGN DO TEXTO DO VALOR MENSAL E ANUAL DA MENSALIDADE DO CARD PLANO SILVER*/
@@ -166,6 +168,7 @@
   font-size: 14px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
+  min-width: 280px;
 }
 
 /*DESIGN DO TITULO DO CARD PLANO GOLD*/
@@ -221,6 +224,7 @@
   background-size: 20px 20px;
   background-repeat: no-repeat;
   text-align: left;
+  margin-right: 50px;
 }
 
 /*IMAGEM A ESQUERDA DA LISTA EXCLUSIVIDADES DO CARD PLANO GOLD*/
@@ -290,6 +294,7 @@
   margin-right: 10px;
   max-width: 390px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 280px;
 }
 
 
@@ -337,6 +342,7 @@
   background-size: 20px 20px;
   background-repeat: no-repeat;
   text-align: left;
+  margin-right: 50px;
 }
 
 .ii3 li {
@@ -346,6 +352,7 @@
   background-size: 20px 20px;
   background-repeat: no-repeat;
   text-align: left;
+  margin-right: 50px;
 }
 
 /*IMAGEM A ESQUERDA DA LISTA EXCLUSIVIDADES DO CARD PLANO PLATINUM*/
@@ -414,6 +421,7 @@
   max-width: 390px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
+  min-width: 280px;
 }
 
 
@@ -461,6 +469,7 @@
   background-size: 20px 20px;
   background-repeat: no-repeat;
   text-align: left;
+  margin-right: 50px;
 }
 
 .ii4 li {
