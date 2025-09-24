@@ -479,6 +479,7 @@
   background-size: 20px 20px;
   background-repeat: no-repeat;
   text-align: left;
+    margin-right: 50px;
 }
 
 /*IMAGEM A ESQUERDA DA LISTA EXCLUSIVIDADES DO CARD PLANO DIAMOND*/
@@ -515,3 +516,4 @@
 .plano4:hover {
   border-top: 20px solid #a9a4a4;
 }
+
