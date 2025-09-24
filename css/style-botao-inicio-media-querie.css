@@ -2,6 +2,9 @@
 
 
 
+.menu {
+  width: 100%;
+}
 
 
 /* ESTILIZAÇÃO DA MEDIA QUERY PARA OUTROS DISPOSITIVOS - EFEITO PARA O BOTAO INICIO APARECER SOZINHO*/
@@ -12,10 +15,6 @@
 
 
 
-
-.menu {
-  width: 100%;
-}
 
 @media only screen and (min-width: 768px) and (max-width:1240px) {
 
@@ -50,8 +49,8 @@
   /*ABA - AGENDAMENTO*/
 
   .ag {
-    font-size: 4vh;
-    height: 6vh;
+    font-size: 3vh;
+    height: 5.5vh;
     margin-bottom: 45px;
     margin-top: 120px;
   }
@@ -77,8 +76,8 @@
 
   #msg {
     top: 90px;
-    height: 9vh;
-    font-size: 3vh;
+    height: 8vh;
+    font-size: 2.9vh;
   }
 
 
@@ -274,9 +273,9 @@
 
   .ag {
     font-size: 3.5vh;
-    height: 10vh;
-    margin-bottom: 20px;
-    margin-top: 11vh;
+    height: 7vh;
+    margin-bottom: 50px;
+    margin-top: 13vh;
   }
 
   .n2,
@@ -433,7 +432,7 @@
     box-shadow: none;
     border-radius: 50px;
     pointer-events: none;
-    border-top: 20px solid gray;
+    border-top: 20px solid #cf7003;
     min-width: 300px;
   }
 
@@ -442,7 +441,7 @@
     box-shadow: none;
     border-radius: 50px;
     pointer-events: none;
-    border-top: 20px solid gray;
+    border-top: 20px solid #b6a811;
     min-width: 300px;
   }
 
@@ -450,7 +449,78 @@
     box-shadow: none;
     border-radius: 50px;
     pointer-events: none;
-    border-top: 20px solid gray;
+    border-top: 20px solid #a9a4a4;
     min-width: 300px;
+  }
+
+  .inicio {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width:1300px) {
+  .t2 {
+    width: 93%;
+    height: 30px;
+  }
+
+  .n2 {
+    width: 93%;
+    height: 30px;
+  }
+
+  .ee2 {
+    width: 93%;
+    height: 30px;
+  }
+
+  .enviar {
+    font-size: 13px;
+    height: 35px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width:1240px) {
+  .ag {
+    font-size: 3vh;
+    height: 50px;
+    margin-bottom: 45px;
+    margin-top: 115px;
+  }
+
+
+  #msg {
+    top: 100px;
+    height: 70px;
+    font-size: 2.9vh;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width:660px) {
+  .ag {
+    font-size: 20px;
+  }
+
+  #msg {
+    font-size: 20px;
+  }
+
+  .enviar {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width:550px) {
+  .ag {
+    font-size: 18px;
+  }
+
+  #msg {
+    font-size: 18px;
+  }
+
+  .enviar {
+    margin-top: 20px;
   }
 }
